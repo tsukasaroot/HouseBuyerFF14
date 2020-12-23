@@ -6,8 +6,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #IfWinActive FINAL FANTASY XIV
 #MaxThreadsPerHotkey 1
 
-;;Created by Islanzadi Drottning
-
 Numpad0::
 	var := false
 	toggle:=!toggle ; activate/deactivate the option (beta)
